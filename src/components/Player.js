@@ -1,6 +1,6 @@
 import React from "react"; //optional
 
-function Player() {
+function Player(props) {
   return (
     <article className="Player">
       <h1>
@@ -11,7 +11,7 @@ function Player() {
       {/* To be shown when there is 1 win */}
       <h2>Currently at 1 win</h2>
       {/* To be shown when there is more than one win */}
-      <h2>Currently at 1+ wins</h2>)
+      <h2>Currently at 1+ wins</h2>
     </article>
   );
 }
